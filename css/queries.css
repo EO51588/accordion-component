@@ -9,17 +9,17 @@
   }
 
   .icon {
-    height: 1.3rem;
-    width: 1.3rem;
+    height: 1.8rem;
+    width: 1.8rem;
   }
 
   .text,
   .number {
-    font-size: 1.3rem;
+    font-size: 1.8rem;
   }
 
   .item {
-    max-width: 50rem;
+    max-width: 80rem;
   }
 }
 
@@ -29,14 +29,14 @@
   }
   .text,
   .number {
-    font-size: 0.9rem;
+    font-size: 1.2rem;
   }
   .icon {
-    height: 0.9rem;
-    width: 0.9rem;
+    height: 1.2rem;
+    width: 1.2rem;
   }
   .item {
-    max-width: 32rem;
+    max-width: 55rem;
   }
 }
 @media (max-width: 25em) {
@@ -45,14 +45,14 @@
   }
   .text,
   .number {
-    font-size: 0.9rem;
+    font-size: 1.2rem;
   }
 
   .icon {
-    height: 0.9rem;
-    width: 0.9rem;
+    height: 1.2rem;
+    width: 1.2rem;
   }
   .item {
-    max-width: 25rem;
+    max-width: 37rem;
   }
 }
