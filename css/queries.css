@@ -7,15 +7,42 @@
   .accordion {
     max-width: 89rem;
   }
+
+  .icon {
+    height: 1.9rem;
+    width: 1.9rem;
+  }
+
+  .text,
+  .number {
+    font-size: 1.9rem;
+  }
 }
 
 @media (max-width: 37em) {
   .accordion {
     max-width: 59rem;
   }
+  .text,
+  .number {
+    font-size: 1.5rem;
+  }
+  .icon {
+    height: 1.5rem;
+    width: 1.5rem;
+  }
 }
 @media (max-width: 25em) {
   .accordion {
     max-width: 40rem;
+  }
+  .text,
+  .number {
+    font-size: 1.5rem;
+  }
+
+  .icon {
+    height: 1.5rem;
+    width: 1.5rem;
   }
 }
