@@ -1,8 +1,8 @@
 "use strict";
 
+const items = document.querySelectorAll(".item");
+
 const accordion = document.querySelector(".accordion");
-const items = document.querySelector(".item");
-const icon = document.querySelector("icons");
 
 function open(e) {
   if (
@@ -13,10 +13,10 @@ function open(e) {
 
   items.forEach((item) => {
     if (item === e.target.closest(".item")) return;
-
     item.classList.remove("open");
   });
 
   e.target.closest(".item").classList.toggle("open");
 }
+
 accordion.addEventListener("click", open);

@@ -1,0 +1,21 @@
+@media (max-width: 82em) {
+  .accordion {
+    max-width: 110rem;
+  }
+}
+@media (max-width: 56em) {
+  .accordion {
+    max-width: 89rem;
+  }
+}
+
+@media (max-width: 37em) {
+  .accordion {
+    max-width: 59rem;
+  }
+}
+@media (max-width: 25em) {
+  .accordion {
+    max-width: 40rem;
+  }
+}
